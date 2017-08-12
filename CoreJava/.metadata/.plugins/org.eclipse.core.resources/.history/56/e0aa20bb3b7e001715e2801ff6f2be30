@@ -1,0 +1,15 @@
+
+public class MethodDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+class Customer{
+	
+	String getCustName(int cid){
+		return 
+	}
+}

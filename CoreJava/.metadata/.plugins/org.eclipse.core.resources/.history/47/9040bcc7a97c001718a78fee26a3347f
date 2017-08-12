@@ -1,0 +1,8 @@
+
+public class VariablesDemo {
+    public static void main(String x[]) {
+    	
+    	int age = 40.5;
+		
+	}
+}

@@ -1,0 +1,26 @@
+
+public class MethodDemo {
+
+	public static void main(String[] args) {
+       
+		Customer obj = new Customer();
+		String name = obj.getCustName(10);
+		
+		System.out.println(name);
+	}
+
+}
+
+class Customer{
+	
+	String getCustName(int cid){
+		
+	    if(cid == 10){
+	    	return "John";
+	    }else if(cid == 20){
+	    	return "Marie";
+	    }else{
+	    	return "Unknown";
+	    }
+	}
+}

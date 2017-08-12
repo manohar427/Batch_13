@@ -1,0 +1,11 @@
+
+public class VariablesDemo {
+    public static void main(String x[]) {
+    	
+    	int age = 40;
+    	
+    	double dollor = 64.345;
+    	float doll = 64.555566f;
+		
+	}
+}

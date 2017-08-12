@@ -1,0 +1,14 @@
+
+public class Customer {
+	
+	int x = 0;
+String getCustName(int cid){
+	    if(cid == 10){
+	    	return "John";
+	    }else if(cid == 20){
+	    	return "Marie";
+	    }else{
+	    	return "Unknown";
+	    }
+	}
+}

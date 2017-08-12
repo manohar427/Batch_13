@@ -1,0 +1,73 @@
+
+public class LoopsDemo {
+
+	public static void main(String[] args) {
+		
+		//if else
+		
+		/*int age = 8;
+		
+		if(age >=10 ){
+			System.out.println("Student is eligible for Cricket");
+		}else{
+			System.out.println("Student is not-eligible for Cricket");
+		}*/
+		
+		//if else if
+		/*int money = 30;
+		if(money == 10){
+			System.out.println("Ten");
+		}else if(money == 20){
+			System.out.println("Twenty");
+		}else{
+			System.out.println("Unknown");
+		}*/
+		
+		//Switch case
+	/*	int money = 200;
+		
+		switch(money){
+		case 10: 
+			System.out.println("Ten");
+			break;
+		case 20: 
+			System.out.println("Twenty");
+			break;	
+		default:
+			System.out.println("Unknown");
+			
+		}*/
+		//while loop
+		/*int x =0;
+		while(x<=10){
+			System.out.println(x);
+			
+			x= x+1;
+		}*/
+		
+		//do-while
+		/*int y = 0;
+		do{
+			
+			System.out.println(y);
+			y = y +1;
+		}while(y<=10);//11<=10
+*/		
+		//for loop
+		/*int marks[] = {10,12,34,56,44,323,55};
+		for(int i=0;i<marks.length;i++){
+			System.out.println(marks[i]);
+		}*/
+		
+		//Tern condition
+		
+		int x =10;
+		
+		String value = x==10 ?"Ten":"Unknown";
+		System.out.println(value);
+		
+		
+		
+		
+	}
+}

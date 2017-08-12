@@ -1,0 +1,53 @@
+
+public class LoopsDemo {
+
+	public static void main(String[] args) {
+		
+		//if else
+		
+		/*int age = 8;
+		
+		if(age >=10 ){
+			System.out.println("Student is eligible for Cricket");
+		}else{
+			System.out.println("Student is not-eligible for Cricket");
+		}*/
+		
+		//if else if
+		/*int money = 30;
+		if(money == 10){
+			System.out.println("Ten");
+		}else if(money == 20){
+			System.out.println("Twenty");
+		}else{
+			System.out.println("Unknown");
+		}*/
+		
+		//Switch case
+		
+		int money = 10;
+		
+		switch(money){
+		case 10: 
+			System.out.println("Ten");
+			break;
+		case 20: 
+			System.out.println("Twenty");
+			break;	
+		default:
+			System.out.println("Unknown");
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}
