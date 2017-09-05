@@ -1,5 +1,6 @@
 package com.db;
 
+import java.io.FileNotFoundException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -8,15 +9,15 @@ import java.sql.Statement;
 
 public class JdbcDemo {
 
-	public static void main(String[] args) {
-
+	public static void main(String[] args)throws FileNotFoundException {
+		Connection con = null;
 		try {
 			//1
 			Class.forName("com.mysql.jdbc.Driver");
 			//2
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/test","root","Tester@123");
+			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/test","root","Tester@123");
 			//3
-			Statement stmt = con.createStatement();
+			Statement stmt = con.createStatement();//
 			//4
 			ResultSet rs = stmt.executeQuery("select * from employee");
 			
@@ -32,10 +33,15 @@ public class JdbcDemo {
 			
 		}catch (ClassNotFoundException e) {
 			e.printStackTrace();
+			
 		}
 		catch (SQLException e) {
 			e.printStackTrace();
 		}
+		catch (InsufficientStudentAgeException e) {
+           e.printStackTrace();
+		}
+		
 	}
 
 }

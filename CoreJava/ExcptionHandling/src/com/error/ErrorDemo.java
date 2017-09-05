@@ -9,8 +9,8 @@ public class ErrorDemo {
 		//ob.m1();
 		
 		//2.Out of memory Error
-		long maxMemSize = Runtime.getRuntime().maxMemory();
-		
+		long maxMemSize = Runtime.getRuntime().maxMemory();//1024
+		System.out.println("MAX SIZE:"+maxMemSize);
 		int array[] = new int[(int)maxMemSize];
 		
 		for(int i=0;i<maxMemSize;i++){
